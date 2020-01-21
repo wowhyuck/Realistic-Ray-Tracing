@@ -22,7 +22,7 @@ public:
 	rgb& operator/=(float right_op);
 
 	rgb operator+()const { return *this; }
-	rgb operator+()const { return rgb(-_r, -_g, -_b); }
+	rgb operator-()const { return rgb(-_r, -_g, -_b); }
 	
 	float r() const { return _r; }
 	float g() const { return _g; }
