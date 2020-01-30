@@ -94,7 +94,6 @@ inline std::ostream& operator<<(std::ostream& out, const rgb& the_rgb) {
 inline rgb operator*(const rgb& c, float f)
 {	return rgb(c._r * f, c._g * f, c._b * f);	}
 
-
 inline rgb operator*(float f, const rgb& c)
 {	return rgb(c._r * f, c._g * f, c._b * f);	}
 

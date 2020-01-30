@@ -12,6 +12,9 @@ struct HitRecord
 {
 	float t;
 	Vector3 normal;
+	Vector2 uv;				// we will use this for 2D textures
+	Vector3 hit_p;			// the point of intersection
+	Texture* hit_tex;		// the nearest intersected object's texture
 	rgb color;
 };
 

@@ -1,7 +1,7 @@
 #pragma once
 // Vector3.h
 
-#include <math.h>
+#include <cmath>
 #include <iostream>
 
 using namespace std;
